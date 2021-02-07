@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A560205125CE23150098372E /* Progressive_OverloadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A560205025CE23150098372E /* Progressive_OverloadApp.swift */; };
+		A560205325CE23150098372E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A560205225CE23150098372E /* ContentView.swift */; };
+		A560205525CE23160098372E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A560205425CE23160098372E /* Assets.xcassets */; };
+		A560205825CE23160098372E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A560205725CE23160098372E /* Preview Assets.xcassets */; };
+		A560206325CE23160098372E /* Progressive_OverloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A560206225CE23160098372E /* Progressive_OverloadTests.swift */; };
+		A560206E25CE23160098372E /* Progressive_OverloadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A560206D25CE23160098372E /* Progressive_OverloadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A560205F25CE23160098372E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A560204525CE23150098372E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A560204C25CE23150098372E;
+			remoteInfo = "Progressive Overload";
+		};
+		A560206A25CE23160098372E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A560204525CE23150098372E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A560204C25CE23150098372E;
+			remoteInfo = "Progressive Overload";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A560204D25CE23150098372E /* Progressive Overload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Progressive Overload.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A560205025CE23150098372E /* Progressive_OverloadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progressive_OverloadApp.swift; sourceTree = "<group>"; };
+		A560205225CE23150098372E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A560205425CE23160098372E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A560205725CE23160098372E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A560205925CE23160098372E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A560205E25CE23160098372E /* Progressive OverloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Progressive OverloadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A560206225CE23160098372E /* Progressive_OverloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progressive_OverloadTests.swift; sourceTree = "<group>"; };
+		A560206425CE23160098372E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A560206925CE23160098372E /* Progressive OverloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Progressive OverloadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A560206D25CE23160098372E /* Progressive_OverloadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progressive_OverloadUITests.swift; sourceTree = "<group>"; };
+		A560206F25CE23160098372E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A560204A25CE23150098372E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A560205B25CE23160098372E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A560206625CE23160098372E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A560204425CE23150098372E = {
+			isa = PBXGroup;
+			children = (
+				A560204F25CE23150098372E /* Progressive Overload */,
+				A560206125CE23160098372E /* Progressive OverloadTests */,
+				A560206C25CE23160098372E /* Progressive OverloadUITests */,
+				A560204E25CE23150098372E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A560204E25CE23150098372E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A560204D25CE23150098372E /* Progressive Overload.app */,
+				A560205E25CE23160098372E /* Progressive OverloadTests.xctest */,
+				A560206925CE23160098372E /* Progressive OverloadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A560204F25CE23150098372E /* Progressive Overload */ = {
+			isa = PBXGroup;
+			children = (
+				A560205025CE23150098372E /* Progressive_OverloadApp.swift */,
+				A560205225CE23150098372E /* ContentView.swift */,
+				A560205425CE23160098372E /* Assets.xcassets */,
+				A560205925CE23160098372E /* Info.plist */,
+				A560205625CE23160098372E /* Preview Content */,
+			);
+			path = "Progressive Overload";
+			sourceTree = "<group>";
+		};
+		A560205625CE23160098372E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A560205725CE23160098372E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A560206125CE23160098372E /* Progressive OverloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				A560206225CE23160098372E /* Progressive_OverloadTests.swift */,
+				A560206425CE23160098372E /* Info.plist */,
+			);
+			path = "Progressive OverloadTests";
+			sourceTree = "<group>";
+		};
+		A560206C25CE23160098372E /* Progressive OverloadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A560206D25CE23160098372E /* Progressive_OverloadUITests.swift */,
+				A560206F25CE23160098372E /* Info.plist */,
+			);
+			path = "Progressive OverloadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A560204C25CE23150098372E /* Progressive Overload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A560207225CE23160098372E /* Build configuration list for PBXNativeTarget "Progressive Overload" */;
+			buildPhases = (
+				A560204925CE23150098372E /* Sources */,
+				A560204A25CE23150098372E /* Frameworks */,
+				A560204B25CE23150098372E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Progressive Overload";
+			productName = "Progressive Overload";
+			productReference = A560204D25CE23150098372E /* Progressive Overload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A560205D25CE23160098372E /* Progressive OverloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A560207525CE23160098372E /* Build configuration list for PBXNativeTarget "Progressive OverloadTests" */;
+			buildPhases = (
+				A560205A25CE23160098372E /* Sources */,
+				A560205B25CE23160098372E /* Frameworks */,
+				A560205C25CE23160098372E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A560206025CE23160098372E /* PBXTargetDependency */,
+			);
+			name = "Progressive OverloadTests";
+			productName = "Progressive OverloadTests";
+			productReference = A560205E25CE23160098372E /* Progressive OverloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A560206825CE23160098372E /* Progressive OverloadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A560207825CE23160098372E /* Build configuration list for PBXNativeTarget "Progressive OverloadUITests" */;
+			buildPhases = (
+				A560206525CE23160098372E /* Sources */,
+				A560206625CE23160098372E /* Frameworks */,
+				A560206725CE23160098372E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A560206B25CE23160098372E /* PBXTargetDependency */,
+			);
+			name = "Progressive OverloadUITests";
+			productName = "Progressive OverloadUITests";
+			productReference = A560206925CE23160098372E /* Progressive OverloadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A560204525CE23150098372E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A560204C25CE23150098372E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A560205D25CE23160098372E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A560204C25CE23150098372E;
+					};
+					A560206825CE23160098372E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A560204C25CE23150098372E;
+					};
+				};
+			};
+			buildConfigurationList = A560204825CE23150098372E /* Build configuration list for PBXProject "Progressive Overload" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A560204425CE23150098372E;
+			productRefGroup = A560204E25CE23150098372E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A560204C25CE23150098372E /* Progressive Overload */,
+				A560205D25CE23160098372E /* Progressive OverloadTests */,
+				A560206825CE23160098372E /* Progressive OverloadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A560204B25CE23150098372E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A560205825CE23160098372E /* Preview Assets.xcassets in Resources */,
+				A560205525CE23160098372E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A560205C25CE23160098372E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A560206725CE23160098372E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A560204925CE23150098372E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A560205325CE23150098372E /* ContentView.swift in Sources */,
+				A560205125CE23150098372E /* Progressive_OverloadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A560205A25CE23160098372E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A560206325CE23160098372E /* Progressive_OverloadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A560206525CE23160098372E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A560206E25CE23160098372E /* Progressive_OverloadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A560206025CE23160098372E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A560204C25CE23150098372E /* Progressive Overload */;
+			targetProxy = A560205F25CE23160098372E /* PBXContainerItemProxy */;
+		};
+		A560206B25CE23160098372E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A560204C25CE23150098372E /* Progressive Overload */;
+			targetProxy = A560206A25CE23160098372E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A560207025CE23160098372E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A560207125CE23160098372E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A560207325CE23160098372E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Progressive Overload/Preview Content\"";
+				DEVELOPMENT_TEAM = 43G42XPNPK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Progressive Overload/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.louisnguyen.Progressive-Overload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A560207425CE23160098372E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Progressive Overload/Preview Content\"";
+				DEVELOPMENT_TEAM = 43G42XPNPK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Progressive Overload/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.louisnguyen.Progressive-Overload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A560207625CE23160098372E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43G42XPNPK;
+				INFOPLIST_FILE = "Progressive OverloadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.louisnguyen.Progressive-OverloadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Progressive Overload.app/Progressive Overload";
+			};
+			name = Debug;
+		};
+		A560207725CE23160098372E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43G42XPNPK;
+				INFOPLIST_FILE = "Progressive OverloadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.louisnguyen.Progressive-OverloadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Progressive Overload.app/Progressive Overload";
+			};
+			name = Release;
+		};
+		A560207925CE23160098372E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43G42XPNPK;
+				INFOPLIST_FILE = "Progressive OverloadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.louisnguyen.Progressive-OverloadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Progressive Overload";
+			};
+			name = Debug;
+		};
+		A560207A25CE23160098372E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43G42XPNPK;
+				INFOPLIST_FILE = "Progressive OverloadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.louisnguyen.Progressive-OverloadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Progressive Overload";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A560204825CE23150098372E /* Build configuration list for PBXProject "Progressive Overload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A560207025CE23160098372E /* Debug */,
+				A560207125CE23160098372E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A560207225CE23160098372E /* Build configuration list for PBXNativeTarget "Progressive Overload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A560207325CE23160098372E /* Debug */,
+				A560207425CE23160098372E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A560207525CE23160098372E /* Build configuration list for PBXNativeTarget "Progressive OverloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A560207625CE23160098372E /* Debug */,
+				A560207725CE23160098372E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A560207825CE23160098372E /* Build configuration list for PBXNativeTarget "Progressive OverloadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A560207925CE23160098372E /* Debug */,
+				A560207A25CE23160098372E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A560204525CE23150098372E /* Project object */;
+}
